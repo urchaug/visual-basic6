@@ -1,0 +1,88 @@
+[Root]
+Most Recent Package=Standard Setup Package 1 calculator
+
+
+[Package|Standard Setup Package 1 calculator|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Users\Urchaug\Documents\VB PROJECTS\calculator\Package
+
+[Package|Standard Setup Package 1 calculator|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1 calculator|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1 calculator|Files Found]
+
+[Package|Standard Setup Package 1 calculator|Files Released]
+
+[Package|Standard Setup Package 1 calculator|Missing Dependency Information]
+
+[Package|Standard Setup Package 1 calculator|Out-of-Date Dependency Information]
+
+[Package|Standard Setup Package 1 calculator|Files Added]
+
+[Package|Standard Setup Package 1 calculator|Files Removed]
+
+[Package|Standard Setup Package 1 calculator|Files In Project]
+C:\Users\Urchaug\Documents\VB PROJECTS\calculator\Project1 calculator.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1 calculator|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1 calculator|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1 calculator|Install Locations]
+C:\Users\Urchaug\Documents\VB PROJECTS\calculator\Project1 calculator.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1 calculator|Configure Shared Files]
+Applicable=Yes
+C:\Users\Urchaug\Documents\VB PROJECTS\calculator\Project1 calculator.exe=No
+
+[Package|Standard Setup Package 1 calculator|Distribution]
+Type=single
+Size=
+Title=Digital calculator
+
+[Package|Standard Setup Package 1 calculator|IconGroups]
+Group0=Digital calculator
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1 calculator|Digital calculator]
+Icon1="Project1 calculator.EXE"
+Title1=Digital calculator
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1 calculator|Package]
+PackageFolder=C:\Users\Urchaug\Documents\VB PROJECTS\calculator\Package
+ProjectFolder=C:\Users\Urchaug\Documents\VB PROJECTS\calculator
+ServerSideCab=
+File1=C:\Users\Urchaug\Documents\VB PROJECTS\calculator\Package\setup.exe
+File2=C:\Users\Urchaug\Documents\VB PROJECTS\calculator\Package\Setup.Lst
+File3=C:\Users\Urchaug\Documents\VB PROJECTS\calculator\Package\Project1 calculator.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
